@@ -17,7 +17,7 @@ root.render(
   <React.StrictMode>
     <ToastContainer position="top-left" autoClose={1500} />
 
-    <BrowserRouter>
+    <BrowserRouter basename="/project-ts">
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
           <App />
